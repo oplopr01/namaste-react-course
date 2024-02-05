@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 1. what is NPM?
 ans: NPM is a package module which is responsible for managing node packages and modules. 
@@ -7,4 +8,15 @@ ans: NPM is a package module which is responsible for managing node packages and
 2. what is Parcel/ webpack? why do we need it?
 ans:  these both are the bundelers which is used to bundle our codes of project.
 used to build our project normaly or for production. parcel has a major role to speed up our
+=======
+
+1. what is NPM?
+ans: NPM is a package module which is responsible for managing node packages and modules. 
+    it is default package manager for javascript. all the required packages/ libraries can be installed 
+    in our project using NPM commands.
+
+2. what is Parcel/ webpack? why do we need it?
+ans:  these both are the bundelers which is used to bundle our codes of project.
+used to build our project normaly or for production. parcel has a major role to speed up our
+>>>>>>> 2a154504faf6c65ad14f9e8569c60b8803533953
 application, it provides some features

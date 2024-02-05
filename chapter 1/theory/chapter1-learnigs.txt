@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 1. What is emmet?
 ans:- in vs code for development,  if we write a specific piece of word it will write a template code. it can be predefined as well as user defined too. 
@@ -38,4 +39,46 @@ means while html document will be parsing at the same time download the script i
 --- Use async when the script doesn't depend on the order of execution and can run independently.
 
 deffer:: in the other hand deffer works opposite of it, if download of script file is done before the parsing then browser will wait to done parsing then after it will execute the script file. here script file will be execute in a order in which they were appeared on the HTML page.
+=======
+
+1. What is emmet?
+ans:- in vs code for development,  if we write a specific piece of word it will write a template code. it can be predefined as well as user defined too. 
+it makes coding faster. :: for example at html writing if we wrote "!" and press enter the whole basic html code will be written.
+
+//------------------------
+
+2. Difference between a Library and Framework?
+ans:- both library and framwork is a reusable codes which may be written by other developers to solve common problem which may a developer counter again and again in his coding journy. 
+
+basic diffrence we can say that: 
+in library a developer is in charge of the flow of application. developer will choos where and when to call the library.
+another hand in framwork, it will  be in charge of the flow of application. developer can insert/ plug their code and framwork will decide when to use that injected code.
+
+//-------------------------
+
+3.What is CDN? Why do we use it?
+ans: CDN stands for content dilivery network. used to diliver web content to the user in efficient, fast, reliable way so user can access content flawlessely.
+
+//-------------------------
+4. what is crossorigin attribute in script tag?
+ans: mainly all browsers work on the "same-origin" concept, which is a security measure to prevent potensial harmful interaction to the diffrent website. so at the time of resourse management for page building if we getting any script, css file or other thing from external site so that time we have to give "crossorigin" attribute so browser could not block the coming content from another website.
+
+
+//-------------------------
+5. what is diffrence in react and ReactDOM?
+ans:- React is  the core library to build component based single page application. it provides all the required methods to build reactive app. it can be used to develop web app as well as mobile app.
+i.e.:: React.createRoot(), React.createElement()
+
+ReactDOM:- reactDOM is the package specially designed for the web application. it provides nessesary methods which are used to render components to the Browsers DOM  i.e.:: ReactDOM.render() 
+
+//-------------------------
+6. What is async and defer?
+ans: async and differ both are used as a single attribute in html's script tag
+
+async:: is used to specify that script shoud be work asyncrounously with respect to html Document parsing,
+means while html document will be parsing at the same time download the script in background and if download is done before parsing end , execute the script file even parsing is not done. there is no specifi order in which script file will execute its depend on loading of it
+--- Use async when the script doesn't depend on the order of execution and can run independently.
+
+deffer:: in the other hand deffer works opposite of it, if download of script file is done before the parsing then browser will wait to done parsing then after it will execute the script file. here script file will be execute in a order in which they were appeared on the HTML page.
+>>>>>>> 2a154504faf6c65ad14f9e8569c60b8803533953
 --- Use defer when the script needs to be executed in order and relies on the DOM being fully parsed.
